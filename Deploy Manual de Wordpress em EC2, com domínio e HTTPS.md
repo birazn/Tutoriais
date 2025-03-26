@@ -45,9 +45,9 @@ sudo mysql -u root
 
 ```sql
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'senha_da_nasa';
-CREATE DATABASE DBWP2025;
+CREATE DATABASE WPDEPLOY;
 CREATE USER 'wp-user'@'localhost' IDENTIFIED BY 'senha_da_nasa';
-GRANT ALL ON DBWP2025.* TO 'wp-user'@'localhost' WITH GRANT OPTION;
+GRANT ALL ON WPDEPLOY.* TO 'wp-user'@'localhost' WITH GRANT OPTION;
 ```
 
 ### Baixando, ajustando e instalando o Wordpress
